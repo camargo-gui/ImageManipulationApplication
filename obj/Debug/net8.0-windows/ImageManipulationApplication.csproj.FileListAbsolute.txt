@@ -1,0 +1,14 @@
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.AssemblyInfo.cs
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\bin\Debug\net8.0-windows\ImageManipulationApplication.exe
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\bin\Debug\net8.0-windows\ImageManipulationApplication.deps.json
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\bin\Debug\net8.0-windows\ImageManipulationApplication.runtimeconfig.json
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\bin\Debug\net8.0-windows\ImageManipulationApplication.dll
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\bin\Debug\net8.0-windows\ImageManipulationApplication.pdb
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.dll
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\refint\ImageManipulationApplication.dll
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.pdb
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.genruntimeconfig.cache
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ref\ImageManipulationApplication.dll
