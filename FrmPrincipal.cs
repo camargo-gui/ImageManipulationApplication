@@ -54,5 +54,21 @@ namespace ImageManipulationApplication
             Filters.VerticalMirrorDMA(src, destination);
             pictBoxImg2.Image = destination;
         }
+
+        private void clickFourConected(object sender, EventArgs e)
+        {
+            Bitmap destination = new Bitmap(image);
+            src = (Bitmap)image;
+            Segmentation.FourConected(src, destination);
+            pictBoxImg2.Image = destination;
+        }
+
+        private void clickEightConected(object sender, EventArgs e)
+        {
+            Bitmap destination = new Bitmap(image);
+            src = (Bitmap)image;
+            Segmentation.EightConected(src, destination);
+            pictBoxImg2.Image = destination;
+        }
     }
 }

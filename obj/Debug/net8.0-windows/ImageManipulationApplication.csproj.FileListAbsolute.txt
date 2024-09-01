@@ -12,3 +12,6 @@
 \\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.pdb
 \\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.genruntimeconfig.cache
 \\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ref\ImageManipulationApplication.dll
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.FrmPrincipal.resources
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\obj\Debug\net8.0-windows\ImageManipulationApplication.sourcelink.json

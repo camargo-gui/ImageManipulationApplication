@@ -31,12 +31,13 @@
             this.pictBoxImg1 = new System.Windows.Forms.PictureBox();
             this.pictBoxImg2 = new System.Windows.Forms.PictureBox();
             this.btnOpenFile = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
+            //this.btnLimpar = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.btnNormalVerticalMirror = new System.Windows.Forms.Button();
             this.btnNormalHorizontalMirror = new System.Windows.Forms.Button();
             this.verticalMirrorDMA = new System.Windows.Forms.Button();
             this.btnNegativoSemDMA = new System.Windows.Forms.Button();
+            this.btnFourConected = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -78,7 +79,7 @@
             //this.btnLimpar.Text = "Limpar";
             //this.btnLimpar.UseVisualStyleBackColor = true;
             //this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            //// 
+            // 
             //// btnVerticalMirror
             // 
             this.btnNormalVerticalMirror.Location = new System.Drawing.Point(219, 512);
@@ -108,37 +109,38 @@
             this.verticalMirrorDMA.Text = "Vertical Mirror DMA";
             this.verticalMirrorDMA.UseVisualStyleBackColor = true;
             this.verticalMirrorDMA.Click += new System.EventHandler(this.clickVerticalMirrorDMA);
-            //// 
-            //// btnNegativoComDMA
-            //// 
-            //this.btnNegativoComDMA.Location = new System.Drawing.Point(433, 541);
-            //this.btnNegativoComDMA.Name = "btnNegativoComDMA";
-            //this.btnNegativoComDMA.Size = new System.Drawing.Size(208, 23);
-            //this.btnNegativoComDMA.TabIndex = 111;
-            //this.btnNegativoComDMA.Text = "Negativo com DMA";
-            //this.btnNegativoComDMA.UseVisualStyleBackColor = true;
-            //this.btnNegativoComDMA.Click += new System.EventHandler(this.btnNegativoComDMA_Click);
-            //// 
-            //// btnNegativoSemDMA
-            //// 
-            //this.btnNegativoSemDMA.Location = new System.Drawing.Point(433, 512);
-            //this.btnNegativoSemDMA.Name = "btnNegativoSemDMA";
-            //this.btnNegativoSemDMA.Size = new System.Drawing.Size(208, 23);
-            //this.btnNegativoSemDMA.TabIndex = 110;
-            //this.btnNegativoSemDMA.Text = "Negativo sem DMA";
-            //this.btnNegativoSemDMA.UseVisualStyleBackColor = true;
-            //this.btnNegativoSemDMA.Click += new System.EventHandler(this.btnNegativoSemDMA_Click);
             // 
+            // btn4Conectada
+            // 
+            this.btnFourConected.Location = new System.Drawing.Point(433, 512);
+            this.btnFourConected.Name = "btnFourConected";
+            this.btnFourConected.Size = new System.Drawing.Size(208, 23);
+            this.btnFourConected.TabIndex = 111;
+            this.btnFourConected.Text = "4-Conectada";
+            this.btnFourConected.UseVisualStyleBackColor = true;
+            this.btnFourConected.Click += new System.EventHandler(this.clickFourConected);
+
+            // btn8Conectada
+            // 
+            this.btnNegativoSemDMA.Location = new System.Drawing.Point(647, 512);
+            this.btnNegativoSemDMA.Name = "btnEightConected";
+            this.btnNegativoSemDMA.Size = new System.Drawing.Size(208, 23);
+            this.btnNegativoSemDMA.TabIndex = 110;
+            this.btnNegativoSemDMA.Text = "8-Conectada";
+            this.btnNegativoSemDMA.UseVisualStyleBackColor = true;
+            this.btnNegativoSemDMA.Click += new System.EventHandler(this.clickEightConected);
+
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1220, 608);
+            this.Controls.Add(this.btnFourConected);
             this.Controls.Add(this.verticalMirrorDMA);
             this.Controls.Add(this.btnNegativoSemDMA);
             this.Controls.Add(this.btnNormalVerticalMirror);
             this.Controls.Add(this.btnNormalHorizontalMirror);
-            this.Controls.Add(this.btnLimpar);
+            //this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnOpenFile);
             this.Controls.Add(this.pictBoxImg2);
             this.Controls.Add(this.pictBoxImg1);
@@ -156,11 +158,13 @@
         private System.Windows.Forms.PictureBox pictBoxImg1;
         private System.Windows.Forms.PictureBox pictBoxImg2;
         private System.Windows.Forms.Button btnOpenFile;
-        private System.Windows.Forms.Button btnLimpar;
+        //private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.Button btnNormalHorizontalMirror;
         private System.Windows.Forms.Button btnNormalVerticalMirror;
         private System.Windows.Forms.Button verticalMirrorDMA;
         private System.Windows.Forms.Button btnNegativoSemDMA;
+        private System.Windows.Forms.Button btnFourConected;
+        private System.Windows.Forms.Button btnEightConected;
     }
 }
