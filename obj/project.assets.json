@@ -8,26 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\guilhermecamargo\\.nuget\\packages\\": {}
+    "C:\\Users\\Guilherme Camargo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\FACULDADE\\6º TERMO\\TTC\\ImageManipulationApplication\\ImageManipulationApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme Camargo\\Downloads\\ImageManipulationApplication-master\\ImageManipulationApplication-master\\ImageManipulationApplication.csproj",
       "projectName": "ImageManipulationApplication",
-      "projectPath": "\\\\Mac\\Home\\Desktop\\FACULDADE\\6º TERMO\\TTC\\ImageManipulationApplication\\ImageManipulationApplication.csproj",
-      "packagesPath": "C:\\Users\\guilhermecamargo\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Desktop\\FACULDADE\\6º TERMO\\TTC\\ImageManipulationApplication\\obj\\",
+      "projectPath": "C:\\Users\\Guilherme Camargo\\Downloads\\ImageManipulationApplication-master\\ImageManipulationApplication-master\\ImageManipulationApplication.csproj",
+      "packagesPath": "C:\\Users\\Guilherme Camargo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guilherme Camargo\\Downloads\\ImageManipulationApplication-master\\ImageManipulationApplication-master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guilhermecamargo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Guilherme Camargo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

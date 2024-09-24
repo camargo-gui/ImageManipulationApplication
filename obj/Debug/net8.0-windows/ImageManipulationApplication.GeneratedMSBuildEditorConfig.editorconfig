@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ImageManipulationApplication
-build_property.ProjectDir = \\Mac\Home\Desktop\FACULDADE\6º TERMO\TTC\ImageManipulationApplication\
+build_property.ProjectDir = C:\Users\Guilherme Camargo\Downloads\ImageManipulationApplication-master\ImageManipulationApplication-master\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

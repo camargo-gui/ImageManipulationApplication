@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImageManipulationApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67a2c920e71cc61f23f4447f1ebff12e29c7e470")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImageManipulationApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImageManipulationApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

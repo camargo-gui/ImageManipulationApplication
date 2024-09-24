@@ -28,129 +28,136 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictBoxImg1 = new System.Windows.Forms.PictureBox();
-            this.pictBoxImg2 = new System.Windows.Forms.PictureBox();
-            this.btnOpenFile = new System.Windows.Forms.Button();
-            //this.btnLimpar = new System.Windows.Forms.Button();
-            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.btnNormalVerticalMirror = new System.Windows.Forms.Button();
-            this.btnNormalHorizontalMirror = new System.Windows.Forms.Button();
-            this.verticalMirrorDMA = new System.Windows.Forms.Button();
-            this.btnNegativoSemDMA = new System.Windows.Forms.Button();
-            this.btnFourConected = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
-            this.SuspendLayout();
+            pictBoxImg1 = new PictureBox();
+            pictBoxImg2 = new PictureBox();
+            btnOpenFile = new Button();
+            // this.btnLimpar = new System.Windows.Forms.Button();
+            openFileDialog = new OpenFileDialog();
+            btnNormalVerticalMirror = new Button();
+            btnNormalHorizontalMirror = new Button();
+            verticalMirrorDMA = new Button();
+            btnNegativoSemDMA = new Button();
+            btnFourConected = new Button();
+            btnThinning = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictBoxImg1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictBoxImg2).BeginInit();
+            SuspendLayout();
             // 
             // pictBoxImg1
             // 
-            this.pictBoxImg1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictBoxImg1.Location = new System.Drawing.Point(5, 6);
-            this.pictBoxImg1.Name = "pictBoxImg1";
-            this.pictBoxImg1.Size = new System.Drawing.Size(600, 500);
-            this.pictBoxImg1.TabIndex = 102;
-            this.pictBoxImg1.TabStop = false;
+            pictBoxImg1.BackColor = SystemColors.ControlLightLight;
+            pictBoxImg1.Location = new System.Drawing.Point(5, 6);
+            pictBoxImg1.Name = "pictBoxImg1";
+            pictBoxImg1.Size = new Size(600, 500);
+            pictBoxImg1.TabIndex = 102;
+            pictBoxImg1.TabStop = false;
             // 
-            // pictBoxImg2
-            // 
-            this.pictBoxImg2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictBoxImg2.Location = new System.Drawing.Point(611, 6);
-            this.pictBoxImg2.Name = "pictBoxImg2";
-            this.pictBoxImg2.Size = new System.Drawing.Size(600, 500);
-            this.pictBoxImg2.TabIndex = 105;
-            this.pictBoxImg2.TabStop = false;
-            // 
+            //pictBoxImg2
+
+
+            pictBoxImg2.BackColor = SystemColors.ControlLightLight;
+            pictBoxImg2.Location = new System.Drawing.Point(611, 6);
+            pictBoxImg2.Name = "pictBoxImg2";
+            pictBoxImg2.Size = new Size(600, 500);
+            pictBoxImg2.TabIndex = 105;
+            pictBoxImg2.TabStop = false;
+
             // btnOpenFile
             // 
-            this.btnOpenFile.Location = new System.Drawing.Point(5, 512);
-            this.btnOpenFile.Name = "btnOpenOmage";
-            this.btnOpenFile.Size = new System.Drawing.Size(101, 23);
-            this.btnOpenFile.TabIndex = 106;
-            this.btnOpenFile.Text = "Open Image";
-            this.btnOpenFile.UseVisualStyleBackColor = true;
-            this.btnOpenFile.Click += new System.EventHandler(this.clickOpenImage);
+            btnOpenFile.Location = new System.Drawing.Point(5, 512);
+            btnOpenFile.Name = "btnOpenOmage";
+            btnOpenFile.Size = new Size(101, 23);
+            btnOpenFile.TabIndex = 106;
+            btnOpenFile.Text = "Open Image";
+            btnOpenFile.UseVisualStyleBackColor = true;
+            btnOpenFile.Click += clickOpenImage;
             // 
             // btnLimpar
             // 
-            //this.btnLimpar.Location = new System.Drawing.Point(112, 512);
-            //this.btnLimpar.Name = "btnLimpar";
-            //this.btnLimpar.Size = new System.Drawing.Size(101, 23);
-            //this.btnLimpar.TabIndex = 107;
-            //this.btnLimpar.Text = "Limpar";
-            //this.btnLimpar.UseVisualStyleBackColor = true;
-            //this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // this.btnLimpar.Location = new System.Drawing.Point(112, 512);
+            // this.btnLimpar.Name = "btnLimpar";
+            // this.btnLimpar.Size = new System.Drawing.Size(101, 23);
+            // this.btnLimpar.TabIndex = 107;
+            // this.btnLimpar.Text = "Limpar";
+            // this.btnLimpar.UseVisualStyleBackColor = true;
+            // this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
-            //// btnVerticalMirror
+            // // btnVerticalMirror
             // 
-            this.btnNormalVerticalMirror.Location = new System.Drawing.Point(219, 512);
-            this.btnNormalVerticalMirror.Name = "btnNormalVerticalMirror";
-            this.btnNormalVerticalMirror.Size = new System.Drawing.Size(208, 23);
-            this.btnNormalVerticalMirror.TabIndex = 108;
-            this.btnNormalVerticalMirror.Text = "Normal Vertical Mirror";
-            this.btnNormalVerticalMirror.UseVisualStyleBackColor = true;
-            this.btnNormalVerticalMirror.Click += new System.EventHandler(this.clickNormalVerticalMirror);
-
-            //// btnHorizontalMirror
-            // 
-            this.btnNormalHorizontalMirror.Location = new System.Drawing.Point(219, 541);
-            this.btnNormalHorizontalMirror.Name = "btnNormalHorizontalMirror";
-            this.btnNormalHorizontalMirror.Size = new System.Drawing.Size(208, 23);
-            this.btnNormalHorizontalMirror.TabIndex = 108;
-            this.btnNormalHorizontalMirror.Text = "Normal Horizontal Mirror";
-            this.btnNormalHorizontalMirror.UseVisualStyleBackColor = true;
-            this.btnNormalHorizontalMirror.Click += new System.EventHandler(this.clickNormalHorizontalMirror);
-            // 
-            // btnLuminanciaComDMA
-            // 
-            this.verticalMirrorDMA.Location = new System.Drawing.Point(433, 541);
-            this.verticalMirrorDMA.Name = "btnVerticalMirrorDMA";
-            this.verticalMirrorDMA.Size = new System.Drawing.Size(208, 23);
-            this.verticalMirrorDMA.TabIndex = 109;
-            this.verticalMirrorDMA.Text = "Vertical Mirror DMA";
-            this.verticalMirrorDMA.UseVisualStyleBackColor = true;
-            this.verticalMirrorDMA.Click += new System.EventHandler(this.clickVerticalMirrorDMA);
+            //btnNormalVerticalMirror.Location = new System.Drawing.Point(219, 512);
+            //btnNormalVerticalMirror.Name = "btnNormalVerticalMirror";
+            //btnNormalVerticalMirror.Size = new Size(208, 23);
+            //btnNormalVerticalMirror.TabIndex = 108;
+            //btnNormalVerticalMirror.Text = "Normal Vertical Mirror";
+            //btnNormalVerticalMirror.UseVisualStyleBackColor = true;
+            //btnNormalVerticalMirror.Click += clickNormalVerticalMirror;
+            //// // btnHorizontalMirror
+            //// 
+            //btnNormalHorizontalMirror.Location = new System.Drawing.Point(219, 541);
+            //btnNormalHorizontalMirror.Name = "btnNormalHorizontalMirror";
+            //btnNormalHorizontalMirror.Size = new Size(208, 23);
+            //btnNormalHorizontalMirror.TabIndex = 108;
+            //btnNormalHorizontalMirror.Text = "Normal Horizontal Mirror";
+            //btnNormalHorizontalMirror.UseVisualStyleBackColor = true;
+            //btnNormalHorizontalMirror.Click += clickNormalHorizontalMirror;
+            //// 
+            //// btnLuminanciaComDMA
+            //// 
+            //verticalMirrorDMA.Location = new System.Drawing.Point(433, 541);
+            //verticalMirrorDMA.Name = "btnVerticalMirrorDMA";
+            //verticalMirrorDMA.Size = new Size(208, 23);
+            //verticalMirrorDMA.TabIndex = 109;
+            //verticalMirrorDMA.Text = "Vertical Mirror DMA";
+            //verticalMirrorDMA.UseVisualStyleBackColor = true;
+            //verticalMirrorDMA.Click += clickVerticalMirrorDMA;
             // 
             // btn4Conectada
             // 
-            this.btnFourConected.Location = new System.Drawing.Point(433, 512);
-            this.btnFourConected.Name = "btnFourConected";
-            this.btnFourConected.Size = new System.Drawing.Size(208, 23);
-            this.btnFourConected.TabIndex = 111;
-            this.btnFourConected.Text = "4-Conectada";
-            this.btnFourConected.UseVisualStyleBackColor = true;
-            this.btnFourConected.Click += new System.EventHandler(this.clickFourConected);
-
+            btnFourConected.Location = new System.Drawing.Point(219, 512);
+            btnFourConected.Name = "btnThinning";
+            btnFourConected.Size = new Size(208, 23);
+            btnFourConected.TabIndex = 111;
+            btnFourConected.Text = "Thinning";
+            btnFourConected.UseVisualStyleBackColor = true;
+            btnFourConected.Click += clickThinning;
             // btn8Conectada
             // 
-            this.btnNegativoSemDMA.Location = new System.Drawing.Point(647, 512);
-            this.btnNegativoSemDMA.Name = "btnEightConected";
-            this.btnNegativoSemDMA.Size = new System.Drawing.Size(208, 23);
-            this.btnNegativoSemDMA.TabIndex = 110;
-            this.btnNegativoSemDMA.Text = "8-Conectada";
-            this.btnNegativoSemDMA.UseVisualStyleBackColor = true;
-            this.btnNegativoSemDMA.Click += new System.EventHandler(this.clickEightConected);
-
+            btnNegativoSemDMA.Location = new System.Drawing.Point(219, 541);
+            btnNegativoSemDMA.Name = "ContourExtraction";
+            btnNegativoSemDMA.Size = new Size(208, 23);
+            btnNegativoSemDMA.TabIndex = 110;
+            btnNegativoSemDMA.Text = "ContourExtraction";
+            btnNegativoSemDMA.UseVisualStyleBackColor = true;
+            btnNegativoSemDMA.Click += clickContour;
+            // btnThinning
+            // 
+            //btnThinning.Location = new System.Drawing.Point(647, 541);
+            //btnThinning.Name = "btnThinning";
+            //btnThinning.Size = new Size(208, 23);
+            //btnThinning.TabIndex = 110;
+            //btnThinning.Text = "Thinning";
+            //btnThinning.UseVisualStyleBackColor = true;
+            //btnThinning.Click += clickThinning;
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1220, 608);
-            this.Controls.Add(this.btnFourConected);
-            this.Controls.Add(this.verticalMirrorDMA);
-            this.Controls.Add(this.btnNegativoSemDMA);
-            this.Controls.Add(this.btnNormalVerticalMirror);
-            this.Controls.Add(this.btnNormalHorizontalMirror);
-            //this.Controls.Add(this.btnLimpar);
-            this.Controls.Add(this.btnOpenFile);
-            this.Controls.Add(this.pictBoxImg2);
-            this.Controls.Add(this.pictBoxImg1);
-            this.Name = "frmPrincipal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Formulário Principal";
-            ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(6F, 13F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1220, 608);
+            Controls.Add(btnFourConected);
+            Controls.Add(verticalMirrorDMA);
+            Controls.Add(btnNegativoSemDMA);
+            Controls.Add(btnNormalVerticalMirror);
+            Controls.Add(btnNormalHorizontalMirror);
+            // this.Controls.Add(this.btnLimpar);
+            Controls.Add(btnOpenFile);
+            Controls.Add(pictBoxImg2);
+            Controls.Add(pictBoxImg1);
+            Name = "frmPrincipal";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Formulário Principal";
+            ((System.ComponentModel.ISupportInitialize)pictBoxImg1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictBoxImg2).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -166,5 +173,6 @@
         private System.Windows.Forms.Button btnNegativoSemDMA;
         private System.Windows.Forms.Button btnFourConected;
         private System.Windows.Forms.Button btnEightConected;
+        private System.Windows.Forms.Button btnThinning;
     }
 }

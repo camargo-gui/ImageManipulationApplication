@@ -10,6 +10,37 @@ namespace ImageManipulationApplication
 {
     class Filters
     {
+
+        public static void BlackAndWhite(Bitmap src, Bitmap dest)
+        {
+            int width = src.Width;
+            int height = src.Height;
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    Color originalColor = src.GetPixel(x, y);
+                    int grayValue = (int)(originalColor.R * 0.3 + originalColor.G * 0.59 + originalColor.B * 0.11);
+                    Color newColor = grayValue < 230 ? Color.Black : Color.White;
+                    dest.SetPixel(x, y, newColor);
+                }
+            }
+        }
+
+        public static void ClearImage(Bitmap src)
+        {
+            int width = src.Width;
+            int height = src.Height;
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    src.SetPixel(x, y, Color.White);
+                }
+            }
+        }
         public static void NormalVerticalMirror(Bitmap src, Bitmap dest)
         {
             int width = src.Width;

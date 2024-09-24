@@ -59,7 +59,7 @@ namespace ImageManipulationApplication
         {
             Bitmap destination = new Bitmap(image);
             src = (Bitmap)image;
-            Segmentation.FourConected(src, destination);
+            Filters.BlackAndWhite(src, destination);
             pictBoxImg2.Image = destination;
         }
 
@@ -68,6 +68,25 @@ namespace ImageManipulationApplication
             Bitmap destination = new Bitmap(image);
             src = (Bitmap)image;
             Segmentation.EightConected(src, destination);
+            pictBoxImg2.Image = destination;
+        }
+
+        private void clickThinning(object sender, EventArgs e)
+        {
+            Bitmap destination = new Bitmap(image);
+            src = (Bitmap)image;
+            Filters.BlackAndWhite(src, destination);
+            Thinning.ZhangSuen(destination);
+            pictBoxImg2.Image = destination;
+        }
+        private void clickContour(object sender, EventArgs e)
+        {
+            Bitmap blackAndWhite = new Bitmap(image);
+            src = (Bitmap)image;
+            Bitmap destination = (Bitmap)image;
+            Filters.BlackAndWhite(src, blackAndWhite);
+            Filters.ClearImage(destination);
+            ContourExtraction.ContourFollowing(blackAndWhite, destination);
             pictBoxImg2.Image = destination;
         }
     }
